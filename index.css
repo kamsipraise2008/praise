@@ -1,0 +1,642 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*start of hero-text*/
+.container{
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    height: 500px;
+}
+.text{
+    font-size: large;
+}
+h3{
+    color: red;
+    margin-top: 20px;
+}
+h1{
+    color: white;
+}
+
+/*style for title section*/
+.section-title{
+    text-align: center;
+}
+h5 span{
+    color: blue;
+}
+h5{
+    color: black;
+}
+h2{
+    color: black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.services-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-sub-title {
+    font-size: 30px;
+    margin-top: -15px;
+    text-align: center;
+    margin-right: 40px;
+    padding-right: 40px;
+
+}
+
+.services-sub-title span {
+    color: blue;
+    text-align: center;
+}
+
+.services-section {
+    display: flex;
+    width: 100%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.4);
+    margin: 5px;
+    padding: 10px 10px;
+    vertical-align: top;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.service-btn {
+    color: deeppink;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.service-btn:hover {
+    color: blue;
+}
+.skill-container {
+    display: block;
+    width: 100%;
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.skill-sub-title span {
+    color: blue;
+}
+
+.skill-box {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+    margin: 20px;
+}
+
+.skill-case {
+    background-color: lightcoral;
+    width: 100%;
+    padding: 1px;
+    border-radius: 12px;
+}
+
+.html-rate {
+    background-color: blue;
+    width: 95%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+
+.css-rate {
+    background-color: blue;
+    width: 82%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+
+.js-rate {
+    background-color: blue;
+    width: 77%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+
+.py-rate {
+    background-color: blue;
+    width: 55%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+
+.php-rate {
+    background-color: blue;
+    width: 65%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+
+.wp-rate {
+    background-color: blue;
+    width: 93%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.portfolio-sub-title {
+    font-size: 18px;
+    margin-top: -15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.portfolio-sub-title span {
+    color: blue;
+}
+
+
+.portfolio-container {
+    display: flex;
+    width: 90%;
+    margin: 70px auto 40px auto;
+    text-align: center;
+}
+
+.portfolio-box {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 5px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.4);
+    margin: 5px;
+    border-radius: 12px;
+}
+
+.portfolio-box img {
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.portfolio-box h3 {
+    font-size: 15px;
+    color: black;
+}
+
+button{
+    color: palevioletred;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+/*style for the testimonial section*/
+.testimonial-container {
+    display: block;
+    width: 100%;
+    background-color: #ddd;
+    margin: 100px auto 60px auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonial-sub-title {
+    font-size: 18px;
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+.testimonial-sub-title span {
+    color: blue;
+}
+
+.testimonial-box {
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.9);
+    padding: 20px 5px;
+    margin: 7px;
+    border-radius: 0 100px 0 100px;
+}
+
+.testimonial-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testimonial-box p {
+    display: block;
+    width: 90%;
+    margin: 40px auto -10px auto;
+    text-align: center;
+}
+
+.testimonial-box .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+
+.testimonial-box .position {
+    font-style: italic;
+    font-weight: 400;
+}
+.contact-container {
+    display: block;
+    text-align: center;
+    background-color: #bbb;
+}
+
+.contact-title {
+    text-align: center;
+    font-weight: bold;
+}
+.contact-sub-title span {
+    color: blue ;
+}
+
+.contact-box {
+    display: flex;
+    width: 40%;
+    margin: 20px;
+}
+
+.icons {
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.description {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.description .address {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.address {
+    margin-bottom: -10px;
+}
+
+form {
+    display: block;
+    width: 40%;
+    margin: 30px auto 20px auto;
+    text-align: left;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+    background-color: white;
+
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.form-btn {
+    background-color: blue;
+    color: white;
+    font-size: 28px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+footer{
+    justify-content: space-between;
+    background-color: #bbb;
+    color: white;
+    gap: 2rem;
+    margin-top: 6px;
+    padding: 10px;
+}
+p{
+    display: inline;
+    color: black;
+    margin: 2px;
+}
+
+form {
+    display: block;
+    width: 40%;
+    margin: 30px auto 20px auto;
+    text-align: left;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+    background-color: white;
+
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.form-btn {
+    background-color: blue;
+    color: white;
+    font-size: 28px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-1, .col-2 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+.col-1 span {
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.reach-btn, .col-2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.social {
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin: 0
+}
+@media (max-width: 700px) {
+    .logo {
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 150px;
+        vertical-align: middle;
+    }
+
+nav {
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.drop-btn {
+    text-decoration: none;
+    color: deeppink;
+}
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #bbb;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    .text{
+        width: 95%;
+        margin-left: 10px;
+    }
+    .text p{
+        width: 95%;
+        font-size: 18px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .hero-btn {
+        font-size: 20px;
+    }
+
+    .services-section {
+        width: 90%;
+        text-align: center;
+    }
+    .service-box {
+        display: block;
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
+
+    .service-box p {
+        font-size: 14px;
+    }
+
+    .skill-box {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+
+    .skill-box h2 {
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+/* portfolio session */
+.portfolio-container{
+    display: block;
+    width: 90%;
+    margin: 70px auto 40px auto;
+    text-align: center;
+}
+    .portfolio-box {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+div{
+    unicode-bidi: isolate;
+}
+    .portfolio-box img {
+        width: 250px;
+    }
+
+    .portfolio-box a {
+        font-size: 20px;
+    }
+/* testimonial */
+    .testimonial-container{
+        
+        display: block;
+        width: 100%;
+        background-color: #ddd;
+        margin: 100px auto 60px auto;
+    
+    }
+        .testimonial-box {
+        display: block;
+        width: 70%;
+        margin: 40px auto 40px auto;
+        padding-bottom: 50px;
+}
+@media (max-width: 700px) {
+    .contact-box {
+        display: block;
+        width: 95%;
+        margin: 0 auto 20px auto;
+        text-align: left;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .icons {
+        padding: 15px;
+        margin-right: 10px;
+    }
+
+    form {
+        width: 80%;
+        margin-top: 40px;
+    }
+}
+
+}
